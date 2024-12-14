@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css" />
+    <title>PC Zone Checkout</title>
+    <script src="cart2.js"></script>
+</head>
+<body>
+    <header> 
+        <nav class="navbar">
+            <div class="logo-name">PC ZONE</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Discover</a></li>
+                <li><a href="Product-1.html">Marketplace</a></li>
+                <li><a href="About-Us.html">About</a></li>
+               <li><a href="cpu1checkout.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="cart" style="padding: 1em; border: none; margin: 1em 0; display: block; margin-left: auto; margin-right: auto;">
+        <!-- Cart will render here -->
+    </div>
+
+    <div class="form-section">
+        <h2>Customer Information</h2>
+        <form>
+            <!-- Name Input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <!-- Address Input -->
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+            
+            <!-- Geolocation Fill Button -->
+            <button class = "geo-button" type="button" onclick="fillAddressWithGeolocation()">Current Address</button>
+            <br>
+			<br>
+            <!-- Credit Card Input -->
+            <label for="credit-card">Credit Card Number:</label>
+            <input type="text" id="credit-card" name="credit-card" maxlength="16" pattern="\d{16}" required>
+            <a href = "confirmation.html">
+            <button  class="proceed-button" onclick="showSummaryPopup()">Proceed to Payment</button>
+
+			</a>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,388 @@
+
+body {
+  margin: 0;
+  
+ 
+  height: 100vh;
+}
+
+
+.header-video {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* Ensures the video scales properly */
+    margin: 0;
+    padding: 0;
+}
+
+.logo-name {
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 10px;
+  font-family: 'League Spartan', sans-serif;
+}
+
+a{
+
+transition: all 0.2s linear;
+}
+.logo {
+  display: block;            
+  margin-left: auto;         
+  margin-right: auto;         
+  height: 75%;                
+  max-width: 100%;           
+  position: absolute;         
+  top: 50%;                   
+  left: 50%;                 
+  transform: translate(-50%, -50%); 
+}
+
+.logo1{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+.button-about {
+    background-color: #542FCE; 
+  border: none;
+  color: white;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;  
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+ font-family: 'Montserrat', sans-serif;
+}
+.button-home {
+  background-color: #542FCE; 
+  border: none;
+  color: white;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;  
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  position: fixed;   
+  bottom: 10px;      
+  left: 50%;         
+  transform: translateX(-50%);  
+  margin: 0;
+}
+
+.About-us-main {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.pc-background {
+    position: absolute; 
+    right: 100px;           
+    top: 50%;           
+    transform: translateY(-50%); 
+    max-width: 50%;     
+    height: auto;       
+}
+
+.About-us {
+ color: white;
+ font-size: 40px;
+ font-family: 'League Spartan', sans-serif;
+}
+
+.About-us2 {
+ color: purple;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about-us3 {
+    text-align: justify; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    color: #fff; 
+    margin-bottom: 20px; 
+    max-width: 600px; 
+    font-family: 'Arimo', sans-serif;
+}
+
+
+
+#background {
+  background-image: url(Assets/Page1.png);
+ 
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+#background2 {
+     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(Assets/bg2.jpg);
+  
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+#background3 {
+  background: radial-gradient(#281c3e,#0f051d);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+#background4 {
+background-image: url(Assets/Page4.png);
+ height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+
+
+.img_contain {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 60px; 
+    padding: 20px; 
+    flex-wrap: wrap; 
+	text-align: center;
+}
+
+
+.button-product {
+  background-color: transparent; 
+  border: 3px solid white;
+  color: white;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;  
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+   transition: transform 0.3s ease;
+ font-family: 'Montserrat', sans-serif;
+ margin:0;
+}
+
+.button-product:hover {
+    transform: scale(1.05); 
+}
+.caption {
+    color: #9851C9;  
+    text-align: center;  
+    font-size: 20px;  
+    margin-top: 5px;  
+	margin-bottom: 10px;  
+	font-family: 'Montserrat', sans-serif;
+}
+
+.price {
+    color: white;  
+    text-align: center;  
+    font-size: 20px; 
+    margin-top: 5px;  
+	margin-bottom: 10px;  
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+.central_img {
+    border: 3px solid white; 
+  
+    width: 250px; 
+    height: 350px; 
+    transition: transform 0.3s ease; 
+	padding: 10px;
+	
+}
+
+
+
+@media (max-width: 768px) {
+    .img_contain {
+        flex-direction: column; 
+    }
+
+    .central_img {
+        width: 150px; 
+    }
+}
+
+
+
+.center2 {
+	color: white;
+	font-size: 4rem;
+	text-align: center;
+	font-family: 'League Spartan', sans-serif;
+}
+
+
+.center3 {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	font-family: 'League Spartan', sans-serif;
+}
+
+
+
+.team-content {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+
+.box {
+    background: #1b1229; 
+    border-radius: 15px; 
+    text-align: center; 
+    padding: 20px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    max-width: 220px; 
+    flex: 1 1 220px; 
+}
+
+.box:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
+}
+
+
+.box img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 15px; 
+}
+
+
+.box h3 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: 'Arimo', sans-serif; 
+}
+
+
+.box h5 {
+    font-size: 14px;
+    color: #b7b4bb;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.logo2 {
+	position: fixed;
+	top: 400px;
+	left: 800px;
+	font-size:100px;
+	text-color: white;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.centered-header {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 30px;
+  
+}
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #1abc9c;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  font-size: 26px;
+  margin: 0;
+  padding: 0;

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+ <link rel="stylesheet" href="products-list.css" />
+    	<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<header> 
+   <nav class="navbar">
+      <div class="logo-name">PC ZONE</div>
+      <ul class="nav-links">
+        <li><a href="home.html">Discover</a></li>
+        <li><a href="ameneties.html">Marketplace</a></li>
+        <li><a href="About-Us.html">About</a></li>
+		<li><a href="roomrate.html">Contact</a></li>
+
+      </ul>
+    </nav>
+  </header>
+<body>
+    <div class="head">
+        <div class="head2">
+    <h2 class="title">XELEO UNIT: AMD 5 5600G</h2>
+    <a href="https://youtu.be/dQw4w9WgXcQ?si=ypA8hdkJu7FHES0P">
+    <button style="bottom: auto;" class="b">Buy</button>
+</a>
+</div>
+   </div>
+   <br>
+
+   </style>
+   <div>
+    <h2 class="price">₱15,995</h2>
+   <img class="image" src="Assets/pc4.png">
+    <table>
+        <tr>
+    <td>
+        <h3>Graphics Cards W/ Processor W/ Cooler:</h3>
+        <p style="color: #ffffff;">AMD RYZEN 5 5600G 3.9GHZ W/ RADEON VEGA 7 PROCESSOR W/ WRAITH STEALTH COOLER</p>
+    </td>
+    <td>
+        <h3>Motherboard:</h3>
+        <p style="color: #ffffff;">A520MH 3.1 SOCKET AM4 DDR4 MOTHERBOARD</p>
+    </td>
+        </tr>
+        <tr>
+    <td>
+        <h3>Memory:</h3>
+        <p style="color: #ffffff;">TEAM ELITE VULCAN TUF 16GB 2X8 3200MHZ DDR4 MEMORY</p>
+    </td>
+    <td>
+        <h3>Storage:</h3>
+        <p style="color: #ffffff;">TEAM GROUP MP33 256GB M.2 PCIE NVME SSD</p>
+    </td>
+        </tr>
+        <tr>
+    <td>
+        <h3>Case W/ Power Supply:</h3>
+        <p style="color: #ffffff;">DB330M MICRO ATX PC CASE W/ 550W PSU</p>
+    </td>
+        </tr>
+    </table>
+    </div>
+
+
+
+
+       <br>
+    <style>
+        .section{
+            float: inline-end;
+            padding: 15px;
+        }
+    </style>
+       <div class="section">
+        <h3 style="color: violet;">Product Description:</h3>
+    <p style="color: #ffffff;">AMD RYZEN 5 5600G 3.9GHZ W/ RADEON VEGA 7 PROCESSOR W/ WRAITH STEALTH COOLER |
+        A520MH 3.1 SOCKET AM4 DDR4 MOTHERBOARD |
+        TEAM ELITE VULCAN TUF 16GB 2X8 3200MHZ DDR4 MEMORY |
+        TEAM GROUP MP33 256GB M.2 PCIE NVME SSD |
+        DB330M MICRO ATX PC CASE W/ 550W PSU</p>
+   
+
+
+
+
+</div>
+   
+</body>
+</html>
