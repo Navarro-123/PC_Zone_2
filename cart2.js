@@ -197,7 +197,8 @@ function showSummaryPopup() {
             </head>
             <body>
                 <div class="receipt">
-                    <h2>Receipt</h2>
+		    <h2>Thank You For Buying</h2>
+                    <h3>Receipt</h3>
                     ${summary}
                     <div class="total">Total: ₱${totalPrice}</div>
                 </div>
